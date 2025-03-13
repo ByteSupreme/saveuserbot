@@ -4,3 +4,4 @@ tgcrypto
 python-dotenv
 Flask
 gunicorn
+requests
