@@ -34,7 +34,7 @@ async def save_message(client, message):
     # Store in MongoDB
     collection.insert_one({
         "key": save_text,
-        "message_id": copied_msg.message_id
+        "message_id": copied_msg.id
     })
 
     await message.reply(f"Message saved with key: `{save_text}`")
