@@ -1,0 +1,4 @@
+pyrogram
+pymongo[srv]
+tgcrypto
+python-dotenv
