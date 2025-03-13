@@ -2,3 +2,5 @@ pyrogram
 pymongo[srv]
 tgcrypto
 python-dotenv
+Flask
+gunicorn
